@@ -1,0 +1,24 @@
+{
+    "name": "kaluginavioletta/request",
+    "description": "request",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kaluginavioletta",
+            "email": "kalugina7bk.ru@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "request\\": "/"
+        },
+        "files": [
+            "/Request.php"
+        ]
+    }
+}
