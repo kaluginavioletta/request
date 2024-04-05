@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "kaluginavioletta",
-            "email": "kalugina7bk.ru@yandex.ru"
+            "email": "kaluginavioletta7bk.ru@yandex.ru"
         }
     ],
     "minimum-stability": "dev",
@@ -15,10 +15,10 @@
     },
     "autoload": {
         "psr-4": {
-            "request\\": "/"
+            "Src\\": "/Src"
         },
         "files": [
-            "/Request.php"
+            "/Src/Request.php"
         ]
     }
 }
